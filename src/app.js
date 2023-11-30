@@ -67,13 +67,8 @@ const down=document.querySelector('.down')
 down.addEventListener('click', ()=>{
     modal__fonts.classList.toggle('hidden')
 })
-// modal__fonts.addEventListener("focusout", ()=>{
-//     modal__fonts.classList.add('hidden')
-//  })
 
-function Focus_Out(event) {
-    modal__fonts.classList.add('hidden')
-}
+
 serif.addEventListener('click', ()=>{
     body.classList.remove('font-Inter')
     body.classList.remove('font-Inconsolata')
