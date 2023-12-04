@@ -274,4 +274,3 @@ function reloadFunc() {
   
     console.log('then');
 }
-// 25
